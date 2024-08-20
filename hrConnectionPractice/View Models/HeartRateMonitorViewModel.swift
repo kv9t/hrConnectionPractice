@@ -8,7 +8,8 @@
 
 import Foundation
 
-class HeartRateMonitorViewModel {
+@ObservableObject
+class HeartRateMonitorViewModel: ObservableObject {
     var heartRateMonitors: [HeartRateMonitor] = []
     
     func connect(to monitor: HeartRateMonitor) -> Bool {
