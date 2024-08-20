@@ -11,6 +11,7 @@
 		A84BB4F02C75442500AB9B76 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A84BB4EF2C75442500AB9B76 /* ContentView.swift */; };
 		A84BB4F22C75442900AB9B76 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A84BB4F12C75442900AB9B76 /* Assets.xcassets */; };
 		A84BB4F52C75442900AB9B76 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A84BB4F42C75442900AB9B76 /* Preview Assets.xcassets */; };
+		A84BB4FD2C75450100AB9B76 /* hrMonitorModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A84BB4FC2C75450100AB9B76 /* hrMonitorModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		A84BB4EF2C75442500AB9B76 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		A84BB4F12C75442900AB9B76 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A84BB4F42C75442900AB9B76 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A84BB4FC2C75450100AB9B76 /* hrMonitorModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hrMonitorModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +53,10 @@
 		A84BB4EC2C75442500AB9B76 /* hrConnectionPractice */ = {
 			isa = PBXGroup;
 			children = (
-				A84BB4ED2C75442500AB9B76 /* hrConnectionPracticeApp.swift */,
 				A84BB4EF2C75442500AB9B76 /* ContentView.swift */,
+				A84BB4FE2C75451700AB9B76 /* View Models */,
+				A84BB4ED2C75442500AB9B76 /* hrConnectionPracticeApp.swift */,
+				A84BB4FB2C7544DE00AB9B76 /* Models */,
 				A84BB4F12C75442900AB9B76 /* Assets.xcassets */,
 				A84BB4F32C75442900AB9B76 /* Preview Content */,
 			);
@@ -65,6 +69,21 @@
 				A84BB4F42C75442900AB9B76 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		A84BB4FB2C7544DE00AB9B76 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				A84BB4FC2C75450100AB9B76 /* hrMonitorModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		A84BB4FE2C75451700AB9B76 /* View Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "View Models";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,6 +158,7 @@
 			files = (
 				A84BB4F02C75442500AB9B76 /* ContentView.swift in Sources */,
 				A84BB4EE2C75442500AB9B76 /* hrConnectionPracticeApp.swift in Sources */,
+				A84BB4FD2C75450100AB9B76 /* hrMonitorModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
