@@ -7,7 +7,7 @@
 
 import Foundation
 
-struct hrMonitorModel {
+struct HeartRateMonitor {
     var name: String
     var deviceID: String
     var heartRate: Int
