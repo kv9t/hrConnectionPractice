@@ -7,7 +7,8 @@
 
 import Foundation
 
-struct HeartRateMonitor {
+struct HeartRateMonitor: Identifiable {
+    let id = UUID()
     var name: String
     var deviceID: String
     var heartRate: Int
